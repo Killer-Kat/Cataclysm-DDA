@@ -276,5 +276,27 @@
       "male": [ "briefs","robe","jeans","socks","wizard_hat_costume" ],
       "female": [ "bra", "panties","witch_dress_short","stockings" ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "wiccan",
+    "name": "Wiccan",
+    "description": "You are a practitioner of the Wiccan faith, a nature-based religion that honors the earth and its cycles. Before the cataclysm, you spent your days studying the craft, meditating, and connecting with the natural world. Now that the world has ended, you see it as an opportunity to put your skills to the test and help others survive in this new, chaotic landscape.",
+    "proficiencies": [ "prof_distilling","prof_fermenting","prof_forage_cooking" ],
+    "points": 7,
+    "skills": [ { "level": 3, "name": "survival" },{ "level": 3, "name": "cooking" }, { "level": 2, "name": "fabrication" },{ "name": "firstaid", "level": 2 },{ "level": 1, "name": "tailor" } ],
+    "traits": [ "LOVES_BOOKS", "SPIRITUAL" ],
+    "items": {
+      "both": {
+        "items": [ "pointed_hat","cloak_black","boots_hiking","backpack_leather", "book_newage_witchcraftadv", "book_newage_witchcraftbeg","isherwood_herbal_remedies","book_newage_beyondveil","tarot_cards","incense" ],
+        "entries": [
+          { "item": "sword_cane", "container-item": "hollow_cane","custom-flags": [ "auto_wield" ] },
+          { "item": "candle", "charges": 100},
+          { "item": "lighter", "charges": 100 } 
+        ]
+      },
+      "male": [ "briefs","robe_wizard","jeans","socks" ],
+      "female": [ "bra", "panties","witch_dress_long","stockings" ]
+    }
   }
 ]

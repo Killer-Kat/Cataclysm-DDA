@@ -25,7 +25,7 @@
     "weight": "55 g",
     "volume": "100 ml",
     "price": 2500,
-    "price_postapoc": 40,
+    "price_postapoc": 150,
     "material": [
       "cardboard"
     ],
@@ -37,4 +37,20 @@
     "use_action": [
       "PLAY_GAME"
     ]
-  }]
+  },{
+    "id": "silver_pocket_watch",
+    "type": "ARMOR",
+    "name": { "str": "silver pocket watch" },
+    "description": "An elegant silver watch on a silver chain, crafted from the finest silver and swiss made brass gears. This must have been very expensive.",
+    "weight": "95 g",
+    "volume": "70 ml",
+    "price": 50000,
+    "price_postapoc": 200,
+    "to_hit": -1,
+    "material": [ { "type": "bronze", "portion": 1 }, { "type": "silver" } ],
+    "symbol": "[",
+    "color": "light_gray",
+    "flags": [ "WATCH", "ALARMCLOCK", "FANCY", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "WATER_FRIENDLY", "OVERSIZE" ]
+    
+  }
+]
