@@ -298,5 +298,26 @@
       "male": [ "briefs","robe_wizard","jeans","socks" ],
       "female": [ "bra", "panties","witch_dress_long","stockings" ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "chess_grandmaster",
+    "name": "Chess Grandmaster",
+    "description": "You are a former world-class chess player who has survived the cataclysm. Your analytical mind and strategic thinking are invaluable assets in a world where every decision can mean the difference between life and death.",
+    "points": 4,
+    "skills": [ { "level": 4, "name": "computer" }, { "level": 2, "name": "speech" } ],
+    "traits": [ "INT_UP_2","PER_UP_2", "FAST_REFLEXES","GOODMEMORY" ],
+    "items": {
+      "both": {
+        "items": [ "socks","dress_shoes", "file", "gold_watch","briefcase" ],
+        "entries": [
+          { "group": "charged_smart_phone" },
+          { "item": "chess", "custom-flags": [ "auto_wield" ] },
+          { "item": "black_pen", "charges": 100 }
+        ]
+      },
+      "male": [ "boxer_shorts", "suit", "dress_shirt", "tie_bow", "leather_belt" ],
+      "female": [ "bra", "panties", "dress", "gold_hairpin"]
+    }
   }
 ]
