@@ -319,5 +319,24 @@
       "male": [ "boxer_shorts", "suit", "dress_shirt", "tie_bow", "leather_belt" ],
       "female": [ "bra", "panties", "dress", "gold_hairpin"]
     }
+  },
+  {
+    "type": "profession",
+    "id": "vr_gamer",
+    "name": "Virtual Reality Addict",
+    "description": "You were once a die-hard gamer who spent every waking moment in virtual reality, completely oblivious to the world around you. As the apocalypse unfolded, you were so immersed in your favorite games that you barely noticed the destruction and chaos happening outside your door. But now that your virtual world has crumbled, you find yourself lost and alone in a harsh and unforgiving wasteland.",
+    "points": 4,
+    "skills": [ { "level": 4, "name": "computer" }, { "level": 2, "name": "speech" } ],
+    "traits": [ "INT_UP_2","PER_UP_2" ],
+    "items": {
+      "both": {
+        "items": [ "socks","sneakers", "bodysuit_lycra","haptic_gloves","goggles_VR" ],
+        "entries": [
+          { "group": "charged_smart_phone" }
+        ]
+      },
+      "male": [ "boxer_shorts"  ],
+      "female": [ "bra", "panties"]
+    }
   }
 ]

@@ -52,5 +52,164 @@
     "color": "light_gray",
     "flags": [ "WATCH", "ALARMCLOCK", "FANCY", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "WATER_FRIENDLY", "OVERSIZE" ]
     
+  },
+  {
+    "id": "goggles_VR",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "symbol": "[",
+    "color": "dark_gray",
+    "name": {
+      "str": "Virtual Reality Headset"
+    },
+    "description": "Who needs food, water, or shelter when you have a virtual reality headset? With this amazing device, you can escape from the harsh realities of the post-apocalyptic wasteland and immerse yourself in a world of pure make-believe… until the batteries run out.",
+    "flags": [
+      "FRAGILE",
+      "OUTER",
+      "WATER_BREAK",
+      "ELECTRONIC",
+      "BLIND"
+    ],
+    "price": 92000,
+    "price_postapoc": 2500,
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "repairs_like": "UPS_off",
+    "weight": "1240 g",
+    "volume": "1 L",
+    "to_hit": -3,
+    "charges_per_use": 1,
+    "ammo": "battery",
+    "use_action": [
+      "PORTABLE_GAME"
+    ],
+    "warmth": 15,
+    "environmental_protection": 3,
+    "material_thickness": 3,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "flag_restriction": [
+          "BATTERY_LIGHT",
+          "BATTERY_ULTRA_LIGHT"
+        ],
+        "default_magazine": "light_plus_battery_cell"
+      }
+    ],
+    "armor": [
+      {
+        "encumbrance": 60,
+        "coverage": 100,
+        "covers": [
+          "eyes", "head"
+        ],
+        "specifically_covers": [
+          "head_crown",
+          "head_forehead"
+        ],
+        "rigid_layer_only": true
+      }
+    ]
+  },
+  {
+    "id": "haptic_gloves",
+    "repairs_like": "gloves_survivor",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": {
+      "str": "pair of haptic gloves",
+      "str_pl": "pairs of haptic gloves"
+    },
+    "description": "Behold, the power of haptic feedback! Or rather, the lack thereof. These gloves were once the ultimate immersion tool, allowing you to feel every virtual sensation as if it were real. Too bad they're completely useless now, except for providing a tiny bit of protection against scratches and scrapes. Maybe you can use them to pretend you're still in the game.",
+    "weight": "200 g",
+    "volume": "300 ml",
+    "price": 25000,
+    "price_postapoc": 1000,
+    "to_hit": 2,
+    "material": [
+      "lycra",
+      "thermo_resin"
+    ],
+    "symbol": ";",
+    "looks_like": "gloves_tactical",
+    "color": "dark_gray",
+    "warmth": 20,
+    "flags": [
+      "VARSIZE",
+      "STURDY"
+    ],
+    "armor": [
+      {
+        "encumbrance": 8,
+        "coverage": 100,
+        "covers": [
+          "hand_l",
+          "hand_r"
+        ],
+        "specifically_covers": [
+          "hand_wrist_l",
+          "hand_wrist_r",
+          "hand_palm_l",
+          "hand_palm_r"
+        ],
+        "material": [
+          {
+            "type": "lycra",
+            "covered_by_mat": 100,
+            "thickness": 0.6
+          }
+        ]
+      },
+      {
+        "coverage": 100,
+        "covers": [
+          "hand_l",
+          "hand_r"
+        ],
+        "specifically_covers": [
+          "hand_back_l",
+          "hand_back_r"
+        ],
+        "material": [
+          {
+            "type": "lycra",
+            "covered_by_mat": 100,
+            "thickness": 0.6
+          },
+          {
+            "type": "thermo_resin",
+            "covered_by_mat": 95,
+            "thickness": 1
+          }
+        ]
+      },
+      {
+        "encumbrance": 0,
+        "coverage": 50,
+        "covers": [
+          "hand_l",
+          "hand_r"
+        ],
+        "specifically_covers": [
+          "hand_fingers_l",
+          "hand_fingers_r"
+        ],
+        "material": [
+          {
+            "type": "lycra",
+            "covered_by_mat": 100,
+            "thickness": 0.6
+          },
+          {
+            "type": "thermo_resin",
+            "covered_by_mat": 50,
+            "thickness": 0.5
+          }
+        ]
+      }
+    ]
   }
 ]
